@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <table border="1">
+        <thead>
+            <th>Student Id</th>
+            <th>Student Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1234</td>
+                <td>Kamal</td>
+                <td>Male</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>3344</td>
+                <td>John</td>
+                <td>Male</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>32432</td>
+                <td>Gaurav</td>
+                <td>Male</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>3343</td>
+                <td>Tanu</td>
+                <td>Female</td>
+                <td>19</td>
+            </tr>
+        </tbody>
+     </table>
+    <!--Table to understand row and coulmn span-->
+    <table border="1">
+        <thead>
+            <th>Student Id</th>
+            <th>Student Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1234</td>
+                <td>Kamal</td>
+                <td>Male</td>
+                <td rowspan="3">17</td>
+            </tr>
+            <tr>
+                <td>3344</td>
+                <td>John</td>
+                <td>Male</td>
+               
+            </tr>
+            <tr>
+                <td colspan="3">32432</td>
+                
+            </tr>
+            <tr>
+                <td>3343</td>
+                <td>Tanu</td>
+                <td>Female</td>
+                
+            </tr>
+        </tbody>
+     </table>
+     <br>
+     <!-- Example 3 -->
+     <table border="1">
+        <thead>
+            <tr>
+                <td>Column1</td>
+                <td>Column2</td>
+                <td>Column3</td>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Row 1 Cell 1</td>
+                <td>Row1 Cell 2</td>
+                <td>Row 1 Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2 Cell 2</td>
+                <td>Row 2 Cell 3</td>
+            </tr>
+            <tr>
+                <td colspan="3">Row 3 Cell 1</td>
+            </tr>
+        </tbody>
+     </table>
+</body>
+</html>
